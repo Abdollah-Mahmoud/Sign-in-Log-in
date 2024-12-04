@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <section id="main">
+      <div class="container" style="max-width: 800px">
+        <div class="row">
+          <div class="col-12 my-shadow mt-5 px-5">
+            <h2 class="text-center pt-5 pb-2">Smart Login System</h2>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control my-input"
+                id="email"
+                placeholder="Enter Your Email"
+                oninput="validationEmail()"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="password"
+                class="form-control my-input"
+                id="password"
+                placeholder="Enter your password"
+                oninput="validationPassword()"
+              />
+            </div>
+            <p
+              id="error"
+              class="hide-msg text-danger"
+              style="margin: 0; text-align: center"
+            >
+              All inputs are required!
+            </p>
+            <p
+              id="error2"
+              class="hide-msg text-danger"
+              style="margin: 0; text-align: center"
+            >
+              Email or password is invalid!
+            </p>
+            <p  id="error4"
+            class="hide-msg text-danger"
+            style="margin: 0; text-align: center" >Email or password doesn't exist!</p>
+            <button
+              onclick="login()"
+              id="Login"
+              class="btn btn-transparent d-flex mx-auto w-100 justify-content-center align-items-center my-btn"
+            >
+              Login
+            </button>
+            <p class="text-center">
+              Don’t have an account?<a href="signup.html"> Sign Up</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="login.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #243640;
+}
+
+#main2 h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(23, 162, 184);
+}
+
+.my-input {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.my-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.my-input:focus {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgb(23, 162, 184);
+  outline: none;
+  box-shadow: none;
+}
+
+#main2 .my-btn {
+  border: 1px solid rgb(23, 162, 184) !important;
+  background-color: transparent;
+  color: rgb(23, 162, 184);
+  transition: all 0.3s ease;
+  display: block;
+  margin-top: 30px;
+}
+
+#main2 .my-btn:hover {
+  background-color: rgb(23, 162, 184);
+  color: white;
+}
+
+#main2 p {
+  display: block;
+  margin-top: 15px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+#main2 p a {
+  color: white;
+  text-decoration: none;
+}
+
+#main2 p a:hover {
+  text-decoration: underline;
+}
+
+#main2 .my-shadow {
+  box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.2), -2px -2px 40px rgba(0, 0, 0, 0.2),
+    2px -2px 40px rgba(0, 0, 0, 0.2), -2px 2px 40px rgba(0, 0, 0, 0.2);
+}
+
+.error-input {
+  border-color: red;
+  box-shadow: 0 0 5px red;
+}
+
+.success-input {
+  border-color: green;
+  box-shadow: 0 0 5px green;
+}
+
+.hide-msg {
+  display: none !important;
+}

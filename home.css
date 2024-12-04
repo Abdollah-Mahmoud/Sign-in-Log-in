@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #243640;
+}
+
+#main h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(23, 162, 184);
+}
+
+#main .my-shadow {
+  box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.2), -2px -2px 40px rgba(0, 0, 0, 0.2),
+    2px -2px 40px rgba(0, 0, 0, 0.2), -2px 2px 40px rgba(0, 0, 0, 0.2);
+}
+
+#home {
+  height: 75vh;
+}
+
+h1 {
+  color: #17a2b8;
+}
+
+.group {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
